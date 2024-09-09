@@ -146,6 +146,14 @@ header > .collapsible-header{
     padding: 10px;
 }
 
+.logo {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 80px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
 /* --------- collapsible div ---------- */
 .collapsible {
     background-color: #f3f0f0;
