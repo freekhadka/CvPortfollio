@@ -180,6 +180,23 @@ header > .collapsible-header{
     margin-top: 10px;
 }
 
+/* Add a hover effect to the card containers */
+.reveal-up {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reveal-up:hover {
+    transform: translateY(-5px); /* Moves the card slightly up */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Adds a deeper shadow on hover */
+}
+
+/* Optional: Add a background color change on hover */
+.reveal-up:hover {
+    background-color: #eaeaea; /* Lightens the background color on hover */
+}
+
+
+
 .collapsible .active,
 .collapsible:hover {
     /* background-color: #dedddd; */
