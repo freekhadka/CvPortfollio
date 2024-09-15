@@ -15,7 +15,7 @@
       "design",
       "websites"
     ],
-    "author": "Paul",
+    "author": "Tristan",
     "license": "MIT",
     "devDependencies": {
       "tailwindcss": "^3.4.1"

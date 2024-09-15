@@ -2,52 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tristan Khadka - Photography Portfolio</title>
-    <link rel="shortcut icon" href="../assets/images/home/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/tailwind-build.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tristan Khadka</title>
+    <meta name="description" content="" />
+    <link rel="shortcut icon" href="./assets/images/home/logo.png" type="image/x-icon" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Title of the project" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/PaulleDemon" />
+    <!--Replace with the current website url-->
+    <meta property="og:image" content="" />
+
+    <!-- <link rel="stylesheet" href="../../tailwind-css/tailwind-runtime.css" /> -->
+    <link rel="stylesheet" href="../css/tailwind-build.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+        integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-[#fff] tw-font-mono">
 
-    <header class="tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] max-lg:tw-px-4 lg:tw-justify-around">
+    <header
+        class="tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] max-lg:tw-mr-auto max-lg:tw-px-4 lg:tw-justify-around">
         <a href="../index.html">
-            <img src="../assets/images/home/logo.png" alt="Logo" class="logo">
+            <img src="../assets/images/home/logo.png" alt="" class="logo">
         </a>
         <div class="collapsible-header animated-collapse max-lg:tw-shadow-md" id="collapsed-header-items">
-            <div class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-black max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center">
-                <a class="header-links" href="portfolio.html">Portfolio</a>
-                <a class="header-links" href="contact.html">About & Contact</a>
+            <div
+                class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-black max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center">
+                <a class="header-links" href=""> Portfolio </a>
+                <a class="header-links" href=""> Contact me </a>
             </div>
-            <div class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center">
-                <a href="https://tally.so/r/woO0Kx" aria-label="signup" class="tw-flex tw-h-[40px] tw-place-items-center tw-gap-2 tw-rounded-full tw-bg-black tw-p-1 tw-pl-4 tw-text-white">
+            <div
+                class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center">
+                <a href="https://tally.so/r/woO0Kx" aria-label="signup"
+                    class="tw-flex tw-h-[40px] tw-place-items-center tw-gap-2 tw-rounded-full tw-bg-black tw-p-1 tw-pl-4 tw-text-white">
                     <span>Get in touch</span>
-                    <div class="tw-flex tw-h-[30px] tw-w-[30px] tw-place-content-center tw-place-items-center tw-rounded-full tw-bg-white tw-font-semibold tw-text-black">
+                    <div
+                        class="tw-flex tw-h-[30px] tw-w-[30px] tw-place-content-center tw-place-items-center tw-rounded-full tw-bg-white tw-font-semibold tw-text-black">
                         <i class="bi bi-arrow-up-right"></i>
                     </div>
                 </a>
             </div>
         </div>
-        <button class="bi bi-list tw-absolute tw-right-3 tw-top-3 tw-z-50 tw-text-3xl tw-text-black lg:tw-hidden" onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
+        <button class="bi bi-list tw-absolute tw-right-3 tw-top-3 tw-z-50 tw-text-3xl tw-text-black lg:tw-hidden"
+            onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
     </header>
 
 
     <section id="portfolio" class="tw-p-[5%]">
-        <h3 class="tw-text-4xl tw-font-semibold">New Regime x Redbull</h3>
+   
         <div class="gallery tw-grid tw-grid-cols-2 tw-gap-4 tw-mt-4">
-            <div class="item"><img src="./assets/souce/newregime2.jpg" alt="New Regime x Redbull Image 1"></div>
-            <div class="item"><img src="./assets/souce/newregime5.jpg" alt="New Regime x Redbull Image 2"></div>
-            <div class="item"><img src="./assets/souce/newregime4.jpg" alt="New Regime x Redbull Image 3"></div>
-            <div class="item"><img src="./assets/souce/newregime3.jpg" alt="New Regime x Redbull Image 4"></div>
-        </div>
-
-        <h3 class="tw-text-4xl tw-font-semibold tw-mt-8">Outsider</h3>
-        <div class="gallery tw-grid tw-grid-cols-3 tw-gap-4 tw-mt-4">
-            <div class="item"><img src="./assets/souce/outsider1.jpeg" alt="Outsider Image 1"></div>
+            <div class="item"><img src="../assets/images/home/newregime2.jpg" alt="New Regime x Redbull Image 1"></div>
+            <div class="item"><img src="../assets/images/home/newregime5.jpg" alt="New Regime x Redbull Image 2"></div>
+            <div class="item"><img src="../assets/images/home/newregime4.jpg" alt="New Regime x Redbull Image 3"></div>
+            <div class="item"><img src="../assets/images/home/newregime3.jpg" alt="New Regime x Redbull Image 4"></div>
+            <div class="item"><img src="../assets/images/home/newregime8.jpg" alt="Outsider Image 1"></div>
             <div class="item"><img src="./assets/souce/outsider2.jpeg" alt="Outsider Image 2"></div>
             <div class="item"><img src="./assets/souce/outsider3.jpeg" alt="Outsider Image 3"></div>
             <div class="item"><img src="./assets/souce/outsider4.jpeg" alt="Outsider Image 4"></div>
@@ -58,15 +75,37 @@
             <div class="item"><img src="./assets/souce/outsider9.jpeg" alt="Outsider Image 9"></div>
         </div>
 
-        <h3 class="tw-text-4xl tw-font-semibold tw-mt-8">Artefact</h3>
-        <div class="gallery tw-grid tw-grid-cols-1 tw-gap-4 tw-mt-4">
-            <div class="item"><video width="560" height="315" src="/assets/souce/export final_3.mp4" frameborder="0" autoplay loop muted></video></div>
-        </div>
     </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js" integrity="sha512-B1lby8cGcAUU3GR+Fd809/ZxgHbfwJMp0jLTVfHiArTuUt++VqSlJpaJvhNtRf3NERaxDNmmxkdx2o+aHd4bvw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js" integrity="sha512-AY2+JxnBETJ0wcXnLPCcZJIJx0eimyhz3OJ55k2Jx4RtYC+XdIi2VtJQ+tP3BaTst4otlGG1TtPJ9fKrAUnRdQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="../css/index.css"></script>
+    <hr class="tw-mt-4" />
+
+    <footer
+        class="tw-mt-auto tw-flex tw-min-h-[100px] tw-w-full tw-place-content-around tw-place-items-center tw-gap-3 tw-p-[2%] tw-px-[10%] tw-text-black max-md:tw-flex-col">
+        <div class="tw-flex tw-gap-6 tw-text-2xl">
+            <a href="" aria-label="Github">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://twitter.com/@pauls_freeman" aria-label="Twitter">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://stackoverflow.com/" class="tw-h-[40px] tw-w-[40px]" aria-label="stackoverflow">
+                <i class="bi bi-stack-overflow"></i>
+            </a>
+        </div>
+    </footer>
+
+
 </body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"
+    integrity="sha512-B1lby8cGcAUU3GR+Fd809/ZxgHbfwJMp0jLTVfHiArTuUt++VqSlJpaJvhNtRf3NERaxDNmmxkdx2o+aHd4bvw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"
+    integrity="sha512-AY2+JxnBETJ0wcXnLPCcZJIJx0eimyhz3OJ55k2Jx4RtYC+XdIi2VtJQ+tP3BaTst4otlGG1TtPJ9fKrAUnRdQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="../index.js"></script>
+
 
 </html>
